@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd608bcf57.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="IMAGES/amitlogo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+
+            <h1>Hello,<br> I'm<span> Amit kumar</span></h1>
+                <br> <h2>ML Engineer from Chennai</h2>
+            <p>Welcome to my official Portfolio Website Where I put all
+                my work related <br> to my skills, Projects and many more.I'm excited to share my expertise <br>with
+                 you and explore how I can help you achieve your goals.</p>
+        </div>
+    </div>
+
+    
+ </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMAGES/ABOUT1.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Amit kumar, a passionate Data Science and Machine Learning enthusiast with a strong background in statistics
+                        and Computer Science.My expertise spans a wide range of Machine Learning algorithms including supervised and unsupervised 
+                        learning, deep learning and natural processing.I'm proficient in working with large datasets building predictive model and 
+                        deploying them in real-world application. I'm a quick learner believe in learning from my past mistakes and experience.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Machine learning</span><br> Deep learning</li>
+                            <li><span>Power Bi</span><br>NLP<br>Sql<br>Microsoft Excel </li>
+                            <li><span>Python</span><br>Python Libraries such as: Pandas, Numpy, Matplotlib</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+
+                            <li><span>2024 - 2025</span><br>Building our ML Projects</li> 
+                        </ul>
+                            <ul>
+                                <li><span>2023 - 2024</span><br>Team work in IT company on ML models</li> 
+                            </ul>
+                        </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span> <br>Matric completed from BSEB Board.</li>
+                            <li><span>2023</span><br>Inter completed from BSEB Board.</li>
+                            <li><span>2027</span><br>Graduate BE-Computer Science Engineer, from Chennai.</li>
+                        </ul>
+                    </div>
+
+            </div>
+        </div>
+ </div>
+ </div>
+ <!-- ------------------------------services----------------------- -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Machine Learning</h2>
+                <p>Our Machine learning services empower businesses to unlock the full potential of thier data, driven decisin-making
+                    and much more.Here you can learn machine learning with the right approach.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-binary"></i>
+                <h2>Deep learning</h2>
+                <p>Learning Deep learning is easy when go with right way and with right approch.Deep learning learns from here where 
+                    i provide th best resources to unluck your data Science journey.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Sql</h2>
+                <p>Taking about SQL where your learns form the scrach.Every beginner did mistakes while learning of SQL they have no idea 
+                    that how to learn it in proper way with efficiently.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>learning Python is very easy but when you follow the right and perfect approach.Learn Python from here, where i will
+                    teach you how to be proficient in pyhton within two month.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-books"></i>
+                <h2>Python Libraries</h2>
+                <p>while moving into Data Science, Data analytics and Machine learning you most be learn the python libraries such as 
+                    Pandas, Numpy and Matplotlib.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-column"></i>
+                <h2>Power Bi</h2>
+                <p>Every successfull Data analyst most be have idea about the data that how to visualize and performing it.While performing of 
+                    real-world data in the actionable formate we must be learn Power Bi.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-excel"></i>
+                <h2>Microsoft Excel</h2>
+                <p>Solving the large Datasets is complex to find the trends and insights from the data. Learn Microsoft Excel from beginner 
+                    to Advance make your carrer in the data fiel.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<!-- ------------------------------upto here services code block------------------------------ -->
+
+
+<!-- ======================From here Portfolio============================= -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work </h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="IMAGES/work1.jpg">
+                <div class="layer">
+                    <h3>Socila Media App</h3>
+                    <p>The app connects you the talentd people around the world.By using the Social Media you 
+                    can connect from any coner of the world.Download it from play store.</p>
+                    <a href="#"> put the link icone code here</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMAGES/work2.jpg">
+                <div class="layer">
+                    <h3>Socila Media App</h3>
+                    <p>The app connects you the talentd people around the world.By using the Social Media you 
+                    can connect from any coner of the world.Download it from play store.</p>
+                    <a href="#"> put the link icone code here</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMAGES/work3.jpg">
+                <div class="layer">
+                    <h3>Socila Media App</h3>
+                    <p>The app connects you the talentd people around the world.By using the Social Media you 
+                    can connect from any coner of the world.Download it from play store.</p>
+                    <a href="#"> put the link icone code here</a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div> 
+<!-- =========================upto here portfolio section ======================== -->
+ 
+<!-- ++++++++++++++++++++++   contact   +++++++++++++++++++++++++++++++++++ -->
+
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1><br>
+                <p><i class="fa-solid fa-square-envelope"></i>amitsiwan3028@gmail.com</p><br>
+                <p><i class="fa-solid fa-phone"></i> 3432834798</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+                <a href="IMAGES/amitcv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-left">
+                <form>
+                    <input type="text" name ="Name" placeholder="Your Name" required>
+                    <input type="email" name ="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Amit.2025. 
+        </p>
+    </div>
+</div> 
+        
+  <!-- <--!--------------------------This is for About Me skills, experience.. transition line  red color------------ > -->
+
+  <script>
+    // Select all the elements that have the "tab-links" and "tab-contents" class
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    // Function to open tabs
+    function opentab(tabname){
+        // Remove active-link class from all tab links
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        
+        // Remove active-tab class from all tab contents
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        // Add active-link class to the clicked tab link
+        event.currentTarget.classList.add("active-link");
+
+        // Show the content of the clicked tab
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script> 
+<!-- ----------------------------------upto her transition line-------------------------------------- --> 
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+   
+</script>
+</body>
+</html>
